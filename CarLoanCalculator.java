@@ -24,7 +24,6 @@ public class CarLoanCalculator {
         int monthlyPayment = monthlyBalance + interest;
 
         System.out.println(monthlyPayment);
-
      } 
   }
 }
