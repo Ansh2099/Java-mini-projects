@@ -33,5 +33,6 @@ public class BasicCalculator {
         System.out.println(myCalculator.multiply(10,10));
         System.out.println(myCalculator.divison(10,10));
         System.out.println(myCalculator.modulo(10,10));
+
     }
 }
