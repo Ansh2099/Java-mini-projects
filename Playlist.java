@@ -30,8 +30,7 @@ public class Playlist {
 
         System.out.println(Playlist);
         System.out.println(Playlist.size()); 
-
-        
+    
     }
     
 }
