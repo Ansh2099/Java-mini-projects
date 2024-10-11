@@ -17,4 +17,5 @@ public class MathMagic{
 
         System.out.println(stepSix);
     }
-}
+}     
+
