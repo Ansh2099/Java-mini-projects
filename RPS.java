@@ -35,6 +35,7 @@ public class RPS {
 
         switch (input) {
             case "rock" -> {
+
                 if(computerOutput.equals("paper")){
                     System.out.println("You LOST !!!");
                 }else if(computerOutput.equals("scissors")){
@@ -43,6 +44,7 @@ public class RPS {
             } 
 
             case "paper" -> {
+
                 if(computerOutput.equals("scissors")){
                     System.out.println("You LOST !!!");
                 }else if(computerOutput.equals("rock")){
@@ -51,13 +53,18 @@ public class RPS {
             }
 
             case "scissors" -> {
+
                 if(computerOutput.equals("rock")){
                     System.out.println("You LOST !!!");
                 }else if(computerOutput.equals("paper")){
                     System.out.println("You WON !!!");
                 }
             }
-            default -> throw new AssertionError();
+            default -> {
+
+                System.out.println("CHOOSE AN APPROPRIATE INPUT");
+                throw new AssertionError();
+            }
         }
     }
     
@@ -66,9 +73,12 @@ public class RPS {
     
         try (Scanner sc = new Scanner(System.in)) {
 
-            System.out.println("Welcome!! Let's Play a classic game of rock, paper, scissors");
+            System.out.println("***************************************************");
+            System.out.println("");            
+            System.out.println("Welcome!! Let's Play a classic game of Rock, Paper & Scissors");
             System.out.println("Choose your move: ");
             input = sc.next().toLowerCase();
+
         }
         
         catch (Exception e) {
@@ -76,6 +86,11 @@ public class RPS {
         }
 
         computerResponse();
+
+        System.out.println("");
+        System.out.println("Computer Choose: " + computerOutput);
+        System.out.println("");
+
         outcome();
         
     }
