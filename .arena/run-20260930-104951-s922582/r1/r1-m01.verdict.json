@@ -1,0 +1,26 @@
+{
+  "match": "r1-m01",
+  "scores": {
+    "a012": {"correctness": 6, "completeness": 8, "specificity": 8, "robustness": 8, "clarity": 8, "fatal": false},
+    "a005": {"correctness": 8, "completeness": 7, "specificity": 8, "robustness": 9, "clarity": 8, "fatal": false}
+  },
+  "winner": "a005",
+  "reason": "a005 maps the real European order intake competitors with prices (Hyperfox at EUR 0.07 per line on Exact/Odoo/SAP/BC, Workist, Choco for food) and narrows the target to a defensible Sage 200 and SAP Business One niche, while a012 never mentions Hyperfox, Workist or Choco, still targets Exact Online and food service, and wrongly says Exact sellers publish no prices.",
+  "survived": [
+    "false gap claim: now names Hyperfox, Workist, Choco, Orderlion, Odoo app and Zestcode and defines a narrow niche",
+    "India price above labour saved: value checks rerun, paid and pilot floors set, math checks out",
+    "unverified ERP APIs: per ERP API table added, Xero dropped for lacking a sales order object",
+    "order confirmation pick with no SME evidence: removed from picks",
+    "India WhatsApp workflow vs rule 7 and HublerX: demoted to conditional with broadcast list go or no go question",
+    "freight quotes breaking the tools rule: moved to rejected"
+  ],
+  "standing": {
+    "a012": [
+      "gap on the recommended ERPs only partly fixed: Hyperfox (published per line price, integrates Exact) and Workist are never mentioned while Exact stays the second target (found by judge)",
+      "coexistence claim that retailers and staff change nothing ignores lost broadcast lists on the number (found by judge)"
+    ],
+    "a005": [
+      "Europe workflow 2 left without a price and with unsourced volume (minor, admitted and not a pick)"
+    ]
+  }
+}

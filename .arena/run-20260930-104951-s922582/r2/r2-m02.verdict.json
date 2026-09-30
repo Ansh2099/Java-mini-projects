@@ -1,0 +1,18 @@
+{
+  "match": "r2-m02",
+  "scores": {
+    "a011": {"correctness": 6, "completeness": 8, "specificity": 8, "robustness": 9, "clarity": 8, "fatal": false},
+    "a013": {"correctness": 8, "completeness": 8, "specificity": 9, "robustness": 9, "clarity": 8, "fatal": false}
+  },
+  "winner": "a013",
+  "reason": "Both fixed every attack, but a011 still makes Sage 200 its whole second product (E2) and a target for E1 while never mentioning that Sage 200 API work needs Sage's developer programme at about 260 GBP a month, and its budget table lists ERP APIs at $0. a013 found that cost, moved its lead build to Unleashed, which it can build on for free, and checked buyer payback with math that holds up for every workflow and size.",
+  "survived": [
+    "FATAL Sage 200 developer programme breaks the $50 budget: fixed by leading on Unleashed (free trial and sandbox) and deferring Sage 200 to partner access",
+    "Workflow 2 buyer loses money at medium price: fixed with a P payback table, lower price, sell only at 50%+ of an administrator saved",
+    "India price broke its own one-third rule and counted whole clerks saved: fixed with 70% saving and recomputed prices that pass",
+    "Europe cut to UK only with no Ireland evidence: fixed with Irish salary, job ad and ERP sources plus NL, DE and FI competition table",
+    "Zestcode 'proves demand' overclaim and unsourced SaaS gap: fixed by removing the claims and stating there is no empty gap",
+    "Tally Excel import ignored: fixed, gap and buyer filter now account for TallyPrime 4.0 Excel import"
+  ],
+  "standing": {"a011": [], "a013": []}
+}

@@ -1,0 +1,22 @@
+{
+  "match": "r1-m02",
+  "scores": {
+    "a006": {"correctness": 5, "completeness": 8, "specificity": 9, "robustness": 8, "clarity": 8, "fatal": false},
+    "a011": {"correctness": 7, "completeness": 9, "specificity": 8, "robustness": 8, "clarity": 8, "fatal": false}
+  },
+  "winner": "a011",
+  "reason": "Both fixed every attack, but a006's India top pick and its cross-region case study (WhatsApp dealer orders into Tally) is already sold by Karvan and Zotok (from about 6,000 INR a month, which is inside a006's own monthly price), so its gap claim is wrong and breaks the task's reject rule; a011 found that, rejected the idea and built its picks around workflows with a checked gap.",
+  "survived": [
+    "Cin7, Odoo and Unleashed order intake already solved: fixed, E2 narrowed to Sage 200 and supplier confirmation made #1",
+    "Karvan, Zotok and Mulltiply already do WhatsApp orders: fixed, moved to rejected with names",
+    "Budget over 50 USD: fixed with self-hosted n8n on Hetzner, direct Meta Cloud API, priced lines totalling about 17 to 20 USD",
+    "Coexistence drops group chats: fixed with a dedicated Cloud API number for 1:1 supplier replies",
+    "Tally offline at night, wrong company loaded, no Busy route: fixed with snapshot agent, write queue, company check, Busy dropped",
+    "I2 had no evidence: fixed with India job postings, with an honest limit stated",
+    "E3 missing fields and EU e-invoicing reason wrong for UK: fixed with full a to h and UK Peppol 2029 mandate"
+  ],
+  "standing": {
+    "a006": [],
+    "a011": []
+  }
+}

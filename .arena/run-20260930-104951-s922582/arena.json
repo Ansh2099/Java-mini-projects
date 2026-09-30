@@ -1,0 +1,786 @@
+{
+ "version": 1,
+ "created": "2026-09-30 10:49:51",
+ "seed": 922582,
+ "agents_n": 16,
+ "cards_available": 2160,
+ "wave": 10,
+ "dir": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582",
+ "has_baseline": false,
+ "agents": {
+  "a001": {
+   "card": {
+    "reasoning": {
+     "id": "inversion",
+     "name": "Inversion",
+     "how": "Ask what would make this answer fail. List every way it could, then build the answer that makes each of those failures impossible."
+    },
+    "workflow": {
+     "id": "open-questions-first",
+     "name": "Open questions first",
+     "how": "List every open question the task leaves. Resolve each one with reasoning or a stated assumption, then answer."
+    },
+    "strategy": {
+     "id": "user-empathy",
+     "name": "User empathy first",
+     "how": "Start from the person who will use this: their situation, their skill level, and what they will actually do next. Shape everything around that."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r1/r1-m08.a001.solution.md",
+   "alive": false,
+   "eliminated_in": 1,
+   "eliminated_by": "a013",
+   "byes": 0
+  },
+  "a002": {
+   "card": {
+    "reasoning": {
+     "id": "worked-example",
+     "name": "Worked example",
+     "how": "Solve one concrete, realistic instance end to end first, with real values. Generalise only from what that example actually taught you."
+    },
+    "workflow": {
+     "id": "requirements-checklist",
+     "name": "Requirements checklist",
+     "how": "Pull every requirement out of the task into a numbered list. Solve, then tick each item off and say exactly where it is met."
+    },
+    "strategy": {
+     "id": "completeness",
+     "name": "Completeness",
+     "how": "Leave out nothing the task asks for or clearly implies. Cover every requirement explicitly."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r3/r3-m01.a002.solution.md",
+   "alive": false,
+   "eliminated_in": 3,
+   "eliminated_by": "a013",
+   "byes": 0
+  },
+  "a003": {
+   "card": {
+    "reasoning": {
+     "id": "probabilistic",
+     "name": "Probabilistic",
+     "how": "Treat every claim and choice as uncertain. Weigh what is likely, prefer what holds up across most scenarios, and state your confidence where it changes the decision."
+    },
+    "workflow": {
+     "id": "write-then-restructure",
+     "name": "Write, then restructure",
+     "how": "Write freely and fast. Then outline what you actually wrote, fix the structure, and rewrite it to the new outline."
+    },
+    "strategy": {
+     "id": "clarity",
+     "name": "Clarity above all",
+     "how": "Make it the easiest answer to read and act on: plain words, obvious structure, nothing the reader has to decode."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r3/r3-m02.a003.solution.md",
+   "alive": false,
+   "eliminated_in": 3,
+   "eliminated_by": "a005",
+   "byes": 0
+  },
+  "a004": {
+   "card": {
+    "reasoning": {
+     "id": "working-backwards",
+     "name": "Working backwards",
+     "how": "Describe the finished result precisely, as if it already exists. Then work backwards, step by step, to where the user is right now."
+    },
+    "workflow": {
+     "id": "three-drafts",
+     "name": "Three drafts, pick one",
+     "how": "Write three short, genuinely different approaches. Pick the strongest on the task's own terms and develop only that one fully."
+    },
+    "strategy": {
+     "id": "completeness",
+     "name": "Completeness",
+     "how": "Leave out nothing the task asks for or clearly implies. Cover every requirement explicitly."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r1/r1-m06.a004.solution.md",
+   "alive": false,
+   "eliminated_in": 1,
+   "eliminated_by": "a002",
+   "byes": 0
+  },
+  "a005": {
+   "card": {
+    "reasoning": {
+     "id": "socratic",
+     "name": "Socratic",
+     "how": "Interrogate the task with the questions a sharp expert would ask before starting. Answer each one explicitly and let the answers decide the shape of the solution."
+    },
+    "workflow": {
+     "id": "draft-critique-rewrite",
+     "name": "Draft, critique, rewrite",
+     "how": "Write a complete first draft. Critique it line by line against the task as if someone else wrote it. Then rewrite it from scratch using the critique."
+    },
+    "strategy": {
+     "id": "defensive",
+     "name": "Defensive",
+     "how": "Assume the inputs are bad and the conditions are hostile. Make the answer fail safely and loudly rather than quietly."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r4/r4-m01.a005.solution.md",
+   "alive": false,
+   "eliminated_in": 4,
+   "eliminated_by": "a013",
+   "byes": 0
+  },
+  "a006": {
+   "card": {
+    "reasoning": {
+     "id": "constraint-first",
+     "name": "Constraint first",
+     "how": "List every hard constraint, stated and implied: time, budget, tools, format, audience, platform. Solve strictly inside that box and let the tightest constraint drive the design."
+    },
+    "workflow": {
+     "id": "smallest-version-first",
+     "name": "Smallest version first",
+     "how": "Produce the smallest complete version that actually works. Then extend it one step at a time, keeping it working after every step."
+    },
+    "strategy": {
+     "id": "edge-cases-first",
+     "name": "Edge cases first",
+     "how": "Hunt the edge cases, failure modes and weird inputs first, and design the answer around surviving them."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r1/r1-m02.a006.solution.md",
+   "alive": false,
+   "eliminated_in": 1,
+   "eliminated_by": "a011",
+   "byes": 0
+  },
+  "a007": {
+   "card": {
+    "reasoning": {
+     "id": "expert-panel",
+     "name": "Expert panel",
+     "how": "Answer the task as three different experts would, picking roles that fit it. Take the strongest idea from each and settle every point where they disagree."
+    },
+    "workflow": {
+     "id": "research-then-synthesise",
+     "name": "Research, then synthesise",
+     "how": "Gather every relevant fact first: the task, any files or context it points to, what is known about the domain. Write nothing until the research is done, then synthesise."
+    },
+    "strategy": {
+     "id": "explicit-trade-offs",
+     "name": "Explicit trade-offs",
+     "how": "Name the real trade-offs, choose for the user's most likely constraints, and say plainly what that choice gives up."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r1/r1-m07.a007.solution.md",
+   "alive": false,
+   "eliminated_in": 1,
+   "eliminated_by": "a015",
+   "byes": 0
+  },
+  "a008": {
+   "card": {
+    "reasoning": {
+     "id": "adversarial",
+     "name": "Adversarial",
+     "how": "Picture the harshest expert reviewer trying to tear the answer apart. Write their attacks down first and build the answer backwards from them."
+    },
+    "workflow": {
+     "id": "outline-first",
+     "name": "Outline first",
+     "how": "Write a skeleton outline, check the outline against every requirement in the task, fix it, and only then fill it in."
+    },
+    "strategy": {
+     "id": "maximal-rigour",
+     "name": "Maximal rigour",
+     "how": "Be exhaustive and exact. Check every step, verify every claim, and leave no hand-waving anywhere."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r2/r2-m03.a008.solution.md",
+   "alive": false,
+   "eliminated_in": 2,
+   "eliminated_by": "a002",
+   "byes": 0
+  },
+  "a009": {
+   "card": {
+    "reasoning": {
+     "id": "contrarian",
+     "name": "Contrarian",
+     "how": "Write down the obvious default answer, then argue seriously against it. Keep only what survives the argument, even if that takes you the unpopular way."
+    },
+    "workflow": {
+     "id": "open-questions-first",
+     "name": "Open questions first",
+     "how": "List every open question the task leaves. Resolve each one with reasoning or a stated assumption, then answer."
+    },
+    "strategy": {
+     "id": "simplest",
+     "name": "Simplest thing that works",
+     "how": "Pick the least complicated answer that fully does the job. Every extra part has to justify itself."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r1/r1-m03.a009.solution.md",
+   "alive": false,
+   "eliminated_in": 1,
+   "eliminated_by": "a003",
+   "byes": 0
+  },
+  "a010": {
+   "card": {
+    "reasoning": {
+     "id": "dialectical",
+     "name": "Dialectical",
+     "how": "State the strongest version of one answer, then the strongest opposing answer, then write the synthesis that keeps what is true in both."
+    },
+    "workflow": {
+     "id": "options-matrix",
+     "name": "Options matrix",
+     "how": "List the realistic options, score them in a small matrix against the criteria that matter for this task, choose one, and write up the choice."
+    },
+    "strategy": {
+     "id": "fewest-moving-parts",
+     "name": "Fewest moving parts",
+     "how": "Remove things until it breaks, then put the last one back. Fewer steps, fewer dependencies, fewer words."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r1/r1-m04.a010.solution.md",
+   "alive": false,
+   "eliminated_in": 1,
+   "eliminated_by": "a008",
+   "byes": 0
+  },
+  "a011": {
+   "card": {
+    "reasoning": {
+     "id": "first-principles",
+     "name": "First principles",
+     "how": "Strip the task down to the facts and requirements nobody can argue with. Rebuild the answer from those alone, and keep a convention only if it earns its place again."
+    },
+    "workflow": {
+     "id": "iterative-deepening",
+     "name": "Iterative deepening",
+     "how": "Write a one-paragraph answer first. Then expand the parts that matter most in two more passes, each one deeper than the last."
+    },
+    "strategy": {
+     "id": "speed",
+     "name": "Speed",
+     "how": "Optimise for the fastest route to something usable today. Cut anything that does not move the result."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r2/r2-m02.a011.solution.md",
+   "alive": false,
+   "eliminated_in": 2,
+   "eliminated_by": "a013",
+   "byes": 0
+  },
+  "a012": {
+   "card": {
+    "reasoning": {
+     "id": "systems-thinking",
+     "name": "Systems thinking",
+     "how": "Map the moving parts, how they affect each other, and what happens second and third order. Optimise the whole system, not just the one part the task points at."
+    },
+    "workflow": {
+     "id": "draft-critique-rewrite",
+     "name": "Draft, critique, rewrite",
+     "how": "Write a complete first draft. Critique it line by line against the task as if someone else wrote it. Then rewrite it from scratch using the critique."
+    },
+    "strategy": {
+     "id": "built-to-last",
+     "name": "Built to last",
+     "how": "Optimise for how this holds up in six months: easy to maintain, easy to extend, no traps for the next person."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r1/r1-m01.a012.solution.md",
+   "alive": false,
+   "eliminated_in": 1,
+   "eliminated_by": "a005",
+   "byes": 0
+  },
+  "a013": {
+   "card": {
+    "reasoning": {
+     "id": "decomposition",
+     "name": "Decomposition",
+     "how": "Break the task into independent sub-problems. Solve each one completely, then integrate them and test the seams where they meet."
+    },
+    "workflow": {
+     "id": "test-first",
+     "name": "Test first",
+     "how": "Before writing the answer, write the checks it must pass: acceptance tests for code, pass or fail criteria for anything else. Then write the answer and run every check against it."
+    },
+    "strategy": {
+     "id": "simplest",
+     "name": "Simplest thing that works",
+     "how": "Pick the least complicated answer that fully does the job. Every extra part has to justify itself."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r4/r4-m01.a013.solution.md",
+   "alive": true,
+   "eliminated_in": null,
+   "eliminated_by": null,
+   "byes": 0
+  },
+  "a014": {
+   "card": {
+    "reasoning": {
+     "id": "analogy",
+     "name": "Analogy",
+     "how": "Find a problem in a different field that has already been solved and has the same shape. Port its solution over, then fix every place where the analogy breaks."
+    },
+    "workflow": {
+     "id": "build-then-break",
+     "name": "Build, then break",
+     "how": "Build the answer. Then throw five hostile inputs or scenarios at it, write down what breaks, and patch every break."
+    },
+    "strategy": {
+     "id": "user-empathy",
+     "name": "User empathy first",
+     "how": "Start from the person who will use this: their situation, their skill level, and what they will actually do next. Shape everything around that."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r1/r1-m05.a014.solution.md",
+   "alive": false,
+   "eliminated_in": 1,
+   "eliminated_by": "a016",
+   "byes": 0
+  },
+  "a015": {
+   "card": {
+    "reasoning": {
+     "id": "evidence-first",
+     "name": "Evidence first",
+     "how": "Ground every claim in something checkable: the task text, the files it points to, the numbers given, documentation. Anything you cannot check gets labelled as an assumption."
+    },
+    "workflow": {
+     "id": "build-then-break",
+     "name": "Build, then break",
+     "how": "Build the answer. Then throw five hostile inputs or scenarios at it, write down what breaks, and patch every break."
+    },
+    "strategy": {
+     "id": "defensive",
+     "name": "Defensive",
+     "how": "Assume the inputs are bad and the conditions are hostile. Make the answer fail safely and loudly rather than quietly."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r2/r2-m04.a015.solution.md",
+   "alive": false,
+   "eliminated_in": 2,
+   "eliminated_by": "a005",
+   "byes": 0
+  },
+  "a016": {
+   "card": {
+    "reasoning": {
+     "id": "contrarian",
+     "name": "Contrarian",
+     "how": "Write down the obvious default answer, then argue seriously against it. Keep only what survives the argument, even if that takes you the unpopular way."
+    },
+    "workflow": {
+     "id": "write-then-restructure",
+     "name": "Write, then restructure",
+     "how": "Write freely and fast. Then outline what you actually wrote, fix the structure, and rewrite it to the new outline."
+    },
+    "strategy": {
+     "id": "concrete-specifics",
+     "name": "Concrete specifics",
+     "how": "Exact numbers, names, commands, file paths and steps. Zero generic advice."
+    }
+   },
+   "solution": "/home/user/Java-mini-projects/.arena/run-20260930-104951-s922582/r2/r2-m01.a016.solution.md",
+   "alive": false,
+   "eliminated_in": 2,
+   "eliminated_by": "a003",
+   "byes": 0
+  }
+ },
+ "rounds": [
+  {
+   "n": 1,
+   "alive": [
+    "a001",
+    "a002",
+    "a003",
+    "a004",
+    "a005",
+    "a006",
+    "a007",
+    "a008",
+    "a009",
+    "a010",
+    "a011",
+    "a012",
+    "a013",
+    "a014",
+    "a015",
+    "a016"
+   ],
+   "matches": [
+    {
+     "id": "r1-m01",
+     "a": "a012",
+     "b": "a005",
+     "winner": "a005",
+     "loser": "a012",
+     "reason": "a005 maps the real European order intake competitors with prices (Hyperfox at EUR 0.07 per line on Exact/Odoo/SAP/BC, Workist, Choco for food) and narrows the target to a defensible Sage 200 and SAP Business One niche, while a012 never mentions Hyperfox, Workist or Choco, still targets Exact Online and food service, and wrongly says Exact sellers publish no prices.",
+     "survived": [
+      "false gap claim: now names Hyperfox, Workist, Choco, Orderlion, Odoo app and Zestcode and defines a narrow niche",
+      "India price above labour saved: value checks rerun, paid and pilot floors set, math checks out",
+      "unverified ERP APIs: per ERP API table added, Xero dropped for lacking a sales order object",
+      "order confirmation pick with no SME evidence: removed from picks",
+      "India WhatsApp workflow vs rule 7 and HublerX: demoted to conditional with broadcast list go or no go question",
+      "freight quotes breaking the tools rule: moved to rejected"
+     ],
+     "scores": {
+      "a012": 74.0,
+      "a005": 79.5
+     },
+     "source": "judge"
+    },
+    {
+     "id": "r1-m02",
+     "a": "a006",
+     "b": "a011",
+     "winner": "a011",
+     "loser": "a006",
+     "reason": "Both fixed every attack, but a006's India top pick and its cross-region case study (WhatsApp dealer orders into Tally) is already sold by Karvan and Zotok (from about 6,000 INR a month, which is inside a006's own monthly price), so its gap claim is wrong and breaks the task's reject rule; a011 found that, rejected the idea and built its picks around workflows with a checked gap.",
+     "survived": [
+      "Cin7, Odoo and Unleashed order intake already solved: fixed, E2 narrowed to Sage 200 and supplier confirmation made #1",
+      "Karvan, Zotok and Mulltiply already do WhatsApp orders: fixed, moved to rejected with names",
+      "Budget over 50 USD: fixed with self-hosted n8n on Hetzner, direct Meta Cloud API, priced lines totalling about 17 to 20 USD",
+      "Coexistence drops group chats: fixed with a dedicated Cloud API number for 1:1 supplier replies",
+      "Tally offline at night, wrong company loaded, no Busy route: fixed with snapshot agent, write queue, company check, Busy dropped",
+      "I2 had no evidence: fixed with India job postings, with an honest limit stated",
+      "E3 missing fields and EU e-invoicing reason wrong for UK: fixed with full a to h and UK Peppol 2029 mandate"
+     ],
+     "scores": {
+      "a006": 72.5,
+      "a011": 79.5
+     },
+     "source": "judge"
+    },
+    {
+     "id": "r1-m03",
+     "a": "a009",
+     "b": "a003",
+     "winner": "a003",
+     "loser": "a009",
+     "reason": "Both fixed every attack and each carries one unraised competitor miss (a003 calls Xero plus Cin7 a best target despite Cin7's own 79 USD IDR add on; a009 claims an open India gap while Karvan and Zotok already turn WhatsApp voice and text orders into orders for Indian wholesalers), but a003 delivers more fully evidenced workflows per region with salary sources and one consistent price ladder, whil",
+     "survived": [
+      "Continia already covers BC order confirmations: BC and Odoo removed from workflow 2 targets",
+      "Sage 200 and Odoo gap unchecked: replaced with a per ERP competitor map",
+      "LLM cost breaks 50 USD budget: priced Flash-Lite, math checks out, pilot cap and pass through rules added",
+      "Price confirmation contradicted own prices: one consistent ladder anchored on Werkritme",
+      "Missing evidence fields: India workflow 3 demoted, UK and India salary sources added",
+      "WhatsApp and Tally build gaps: Coexistence and a retrying company aware Tally agent specified"
+     ],
+     "scores": {
+      "a009": 69.5,
+      "a003": 76.0
+     },
+     "source": "judge"
+    },
+    {
+     "id": "r1-m04",
+     "a": "a008",
+     "b": "a010",
+     "winner": "a008",
+     "loser": "a010",
+     "reason": "a008 fixed every attack and gives the user a deeper, verified competitor landscape (Hyperfox per line math, Microsoft agent limits, kill rule, GDPR and n8n licence traps) with one consistent price table, which outweighs its omission of the Sage 200 developer fee that a010 correctly caught.",
+     "survived": [
+      "non BC gap already filled by products: fixed with landscape table and narrowed segments A, B, C plus kill rule",
+      "India price above SalesOn and Zotok: repriced to Zotok level, SalesOn distinction correctly argued",
+      "no European spend evidence: Reed, Werkzoeken, Indeed salaries and job duties added",
+      "two workflows failing a to h: Europe workflow 2 rivals added, India workflow 2 demoted to do not build",
+      "contradictory pricing verdict: single price table with repeatable anchors",
+      "one twentieth ratio wrong: recomputed correctly at midpoints",
+      "small firm output system unnamed: Unleashed named, then rejected due to Logistify"
+     ],
+     "scores": {
+      "a008": 82.0,
+      "a010": 80.0
+     },
+     "source": "judge"
+    },
+    {
+     "id": "r1-m05",
+     "a": "a016",
+     "b": "a014",
+     "winner": "a016",
+     "loser": "a014",
+     "reason": "Both fixed every attack, but a014's revised top pick tells the user to lead with Cin7 Core and Unleashed as ERPs with 'no built in agent' while Cin7 sells its own IDR PDF-to-draft-sales-order add-on and Logistify covers Unleashed (tools a014's own attack cited), so its lead segment fails the task's rejection test, whereas a016 narrowed its pick to a ledger it actually checked and ran the competito",
+     "survived": [
+      "Dext and Lightyear already cover statement reconciliation: narrowed to uncovered ledgers (Exact Online) with a 4 step competitor check",
+      "E2 surviving-ERP list unsourced and wrong: removed, E2 made conditional only",
+      "open item vs balance forward false exceptions: matching rebuilt as-of statement date with type-aware balance check",
+      "CA firm pilot timed into the extended audit deadline: re-sequenced to trader first, CA back test after 21 November",
+      "three conflicting qualifiers: one 100 statement qualifier with math",
+      "I2 and E3 missing required fields: moved to unproven and rejected",
+      "tenant-wide Mail.ReadWrite: forwarding rule default plus scoped RBAC for Applications"
+     ],
+     "scores": {
+      "a016": 74.5,
+      "a014": 72.0
+     },
+     "source": "judge"
+    },
+    {
+     "id": "r1-m06",
+     "a": "a004",
+     "b": "a002",
+     "winner": "a002",
+     "loser": "a004",
+     "reason": "Both fixed every attack, but a004 still claims an open India gap for WhatsApp orders to Tally while missing Zotok and Karvan (cheap tools that do exactly this for distributors) and still calls Exact Online a good target despite admitting third parties already sell email to order there, whereas a002 gets the competitor landscape right, flags Exact as crowded, and backs its pick with a worked exampl",
+     "survived": [
+      "Missed Indian WhatsApp to Tally competitors: reframed I1 as a case study build, with Zotok, Karvan and HublerX named and priced",
+      "No Indian evidence of spend: added Ludhiana billing pay and Naukri listing counts",
+      "Unsourced and inconsistent EU price verdict: now 'corrected', cites UK agency pricing, worked example repriced inside the band",
+      "No continental EU software: added Exact, Odoo, Lexware, Fortnox, Netvisor, Procountor, DATEV with sources",
+      "E2 broke the 2 to 3 tool rule: portal input dropped, BC cash application tools cited, demoted to validate first",
+      "Customs keying time used for order entry: replaced with order entry benchmarks and a low and base case",
+      "Overloaded 8 week plan: replaced with a sequential 16 week plan that fits 20 hours a week"
+     ],
+     "scores": {
+      "a004": 78.5,
+      "a002": 84.5
+     },
+     "source": "judge"
+    },
+    {
+     "id": "r1-m07",
+     "a": "a015",
+     "b": "a007",
+     "winner": "a015",
+     "loser": "a007",
+     "reason": "Both fixed the fatal Business Central Sales Order Agent miss. a015 fixed all six attacks with price tables I checked line by line, and it gives more qualifying workflows (2 India, 2 Europe) plus a concrete Tally bridge design. a007 kept one real error: its Exact Online row claims a full sales order API without the Wholesale/Manufacturing edition condition, which it had itself used against a015. It",
+     "survived": [
+      "BC Sales Order Agent makes lead product built in (fixed: lead moved to supplier confirmation check, PO entry only on uncovered ERPs)",
+      "prices failed own one third of saving rule (fixed: one formula plus per volume tables, arithmetic verified)",
+      "Exact Online sales order API is edition limited (fixed: edition split in table and qualification check)",
+      "Europe pick 2 had no cost or price basis (fixed: Indeed buyer and assistant salaries, loaded cost, worked example)",
+      "VPS cannot reach Tally localhost:9000 (fixed: outbound only Windows agent, Tally settings, heartbeat, Zoho or Marg first)",
+      "time zone offsets go stale after 25 Oct 2026 (fixed: summer and winter offsets with correct dates and IST support window)"
+     ],
+     "scores": {
+      "a015": 85.0,
+      "a007": 77.0
+     },
+     "source": "judge"
+    },
+    {
+     "id": "r1-m08",
+     "a": "a001",
+     "b": "a013",
+     "winner": "a013",
+     "loser": "a001",
+     "reason": "a013 checks the built in competition on every target stack (BC Sales Order Agent, Cin7 Core IDR, TallyPrime Docs by Ira, Odoo modules) and aims where they stop working, while a001 names Cin7 Core as a first UK target and Tally as its India target without noticing that both ship a built in PDF to sales order feature (verified: Cin7 IDR add on from 79 USD a month, Docs by Ira creates Sales Order vou",
+     "survived": [
+      "Business Central Sales Order Agent (fatal claim): BC dropped as a target, Sage 200 and Unleashed made the lead, BC agent limits documented",
+      "Unsourced price cut: user's guess now confirmed and tied to aiworkforce and Axivon ranges",
+      "India workflow 2 unchecked reject test: moved to rejected list with AI Accountant, TransactIG and Docs by Ira sources",
+      "Unchecked small firm ERPs: full API and built in feature table for Sage 200, Unleashed, Exact, Cin7, Odoo, Xero, QBO, Sage 50",
+      "India buyer contradiction and unsourced pay: small firms now case study only, pay sourced from Indeed India and Glassdoor Ludhiana",
+      "WhatsApp forwarding habit change: version 1 is email only, version 2 via Meta coexistence with costs stated",
+      "Europe workflow 2 no cost proof: Glassdoor salary and a UK job ad naming order acknowledgement follow up added"
+     ],
+     "scores": {
+      "a001": 74.0,
+      "a013": 83.5
+     },
+     "source": "judge"
+    }
+   ],
+   "bye": null,
+   "closed": true
+  },
+  {
+   "n": 2,
+   "alive": [
+    "a002",
+    "a003",
+    "a005",
+    "a008",
+    "a011",
+    "a013",
+    "a015",
+    "a016"
+   ],
+   "matches": [
+    {
+     "id": "r2-m01",
+     "a": "a003",
+     "b": "a016",
+     "winner": "a003",
+     "loser": "a016",
+     "reason": "a003's revised top pick (emailed PO to ERP, narrowed to Sage 200 and messy mixed format orders) rests on sourced proof of paid pain in both regions with a real India to Europe bridge, while a016's revised top pick is an openly unproven bet with no evidence of spend in its Dutch target market, an India income pick that fails its own labour math, and a bridge built on a workflow it admits is not a p",
+     "survived": [
+      "Katana and Cin7 target already covered (fixed: moved to skip list, Pick 1 retargeted to Sage 200 and messy mixed format orders)",
+      "Unsourced and wrong ERP API claims (fixed: sourced per ERP, QuickBooks Online no SalesOrder API, Xero paid tiers, Sage 50 developer fee)",
+      "India plan targets the segment it rejected (fixed: target is now manufacturers with emailed OEM POs, with the FMCG rejection reason corrected)",
+      "No India evidence or hire vs automate math (fixed: cases, job listings and a checked volume break even table added)",
+      "Freight workflow lacked software, API and price detail (fixed: moved to the rejected list with sources)",
+      "GDPR endpoint vs cost model mismatch (fixed: EU model options priced, Gemini 2.5 Flash-Lite retirement handled, cost figures check out)"
+     ],
+     "scores": {
+      "a003": 83.5,
+      "a016": 70.5
+     },
+     "source": "judge"
+    },
+    {
+     "id": "r2-m02",
+     "a": "a011",
+     "b": "a013",
+     "winner": "a013",
+     "loser": "a011",
+     "reason": "Both fixed every attack, but a011 still makes Sage 200 its whole second product (E2) and a target for E1 while never mentioning that Sage 200 API work needs Sage's developer programme at about 260 GBP a month, and its budget table lists ERP APIs at $0. a013 found that cost, moved its lead build to Unleashed, which it can build on for free, and checked buyer payback with math that holds up for ever",
+     "survived": [
+      "FATAL Sage 200 developer programme breaks the $50 budget: fixed by leading on Unleashed (free trial and sandbox) and deferring Sage 200 to partner access",
+      "Workflow 2 buyer loses money at medium price: fixed with a P payback table, lower price, sell only at 50%+ of an administrator saved",
+      "India price broke its own one-third rule and counted whole clerks saved: fixed with 70% saving and recomputed prices that pass",
+      "Europe cut to UK only with no Ireland evidence: fixed with Irish salary, job ad and ERP sources plus NL, DE and FI competition table",
+      "Zestcode 'proves demand' overclaim and unsourced SaaS gap: fixed by removing the claims and stating there is no empty gap",
+      "Tally Excel import ignored: fixed, gap and buyer filter now account for TallyPrime 4.0 Excel import"
+     ],
+     "scores": {
+      "a011": 76.0,
+      "a013": 83.5
+     },
+     "source": "judge"
+    },
+    {
+     "id": "r2-m03",
+     "a": "a002",
+     "b": "a008",
+     "winner": "a002",
+     "loser": "a008",
+     "reason": "Both fixed every attack, but a002 gives a lead European market (Procountor and Netvisor in Finland) that is buildable inside the $50 budget with free developer access and no tool found, plus a small-firm path and inline sources, while a008's lead is a narrow price war against Hyperfox and its small-firm Europe workflow is thin and priced under the user's floor; a002's false claim that Microsoft's ",
+     "survived": [
+      "Fortnox named as open market: now rejected with Qrisp and Gung, and Cin7 and Unleashed also dropped",
+      "Sage 200 developer fee ignored: now sourced at about 4,995 GBP a year and Sage 200 moved to after revenue",
+      "Contradictory 250 USD small-firm fee: replaced by a confirmed 400 to 600 USD band matching its own example",
+      "US Sage 100 thread misused and no Finnish evidence: relabelled, Duunitori salary added, volume shown at 20, 40 and 80 orders a day",
+      "INR fees exceed savings: volume table added and a 100 orders a day minimum set, math checks out",
+      "I1 over the 2 to 3 tool limit: correctly rebutted (own connector and route are not client tools) and provider dropped"
+     ],
+     "scores": {
+      "a002": 81.5,
+      "a008": 80.0
+     },
+     "source": "judge"
+    },
+    {
+     "id": "r2-m04",
+     "a": "a005",
+     "b": "a015",
+     "winner": "a005",
+     "loser": "a015",
+     "reason": "a005 fixed all six attacks with math that checks out and an honest competitor map; a015 fixed its pricing math but its lead pick (supplier confirmation check) and its best PO-entry target (Exact Online) both ignore Hyperfox, which sells an order confirmation agent and order entry with prebuilt BC and Exact connectors and public per-line pricing, so the gap it names does not hold.",
+     "survived": [
+      "upkeep range contradicted own math: now one formula (hours x cost x 0.7, third to half) and the table checks out at 4h and 16h",
+      "Hyperfox Sage absence from snippets: claim narrowed to no prebuilt connector, plus a sales-inquiry gate before any Sage spend",
+      "volumes were guesses: TradeCentric/IOFM benchmarks added, floors moved to measured hours of keying, stopwatch gate; HublerX turnover rebuttal is correct",
+      "Sage build over budget: no Sage fee until a client deposit, demo on free BC trial and Tally",
+      "only one European workflow: RFQ to quote added with salary and job ad evidence, plus a fallback ladder",
+      "Sage 200 Manufacturing retirement: manufacturers excluded unless already migrated, ERP change question added to discovery"
+     ],
+     "scores": {
+      "a005": 79.0,
+      "a015": 68.0
+     },
+     "source": "judge"
+    }
+   ],
+   "bye": null,
+   "closed": true
+  },
+  {
+   "n": 3,
+   "alive": [
+    "a002",
+    "a003",
+    "a005",
+    "a013"
+   ],
+   "matches": [
+    {
+     "id": "r3-m01",
+     "a": "a013",
+     "b": "a002",
+     "winner": "a013",
+     "loser": "a002",
+     "reason": "Both fixed every attack, but a013's plan is more internally consistent (its payback tables check out at worst case, its Indian case study uses the same PO file shape European buyers send, and its budget plan for Unleashed is concrete), while a002 rejects Unleashed over a paid service with no public price (Logistify) yet keeps Sage 200 despite Zestcode, leaves its Rackbeat test access unconfirmed, ",
+     "survived": [
+      "Unleashed not free to build on: fixed with docs plus fake server, one 14 day trial, recorded demo, then client sandbox",
+      "Job ad proof names Sage not Unleashed: admitted, Unleashed evidence added, 60 firm counting test with BC fallback",
+      "Workflow 2 lines vs confirmations threshold: redone in hours, worst case checked",
+      "Abakion app missed for workflow 2: added, plus Continia found, workflow 2 demoted to conditional",
+      "Unproven Ludhiana buyer shape: labelled a guess, 10 firm screening table, WhatsApp file intake, two fallbacks",
+      "Pharma stockists on Marg: moved to does not fit list",
+      "Time zone, India price row and Indeed NL link slips: all corrected"
+     ],
+     "scores": {
+      "a013": 82.5,
+      "a002": 78.0
+     },
+     "source": "judge"
+    },
+    {
+     "id": "r3-m02",
+     "a": "a003",
+     "b": "a005",
+     "winner": "a005",
+     "loser": "a003",
+     "reason": "Both fixed every attack with correct arithmetic, but a005 ends with an independent second European workflow (Sage 200 cash allocation), a concrete partner-led first sale path with a paid pilot, and a per-prospect Hyperfox fee formula, while a003 is left with one European workflow and 'No Pick 2'.",
+     "survived": [
+      "0.7 savings factor: cut to 0.5 with 0.3 and 0.74 stress columns, table math checks out",
+      "No path to first sale: Sage partner subcontract route, free Business Central demo, 25% paid pilot",
+      "Small buyer excluded and Xero tool count: one tool count rule, small tier named as Sage 200 Standard or BC",
+      "Single workflow family ladder: added cash allocation workflow with different owner and competitors",
+      "India floor on estimated salary: gates now at sourced 18,000 INR, table recomputed correctly",
+      "Fixed Hyperfox ratio: replaced by per-prospect lines x EUR 0.07 formula and table"
+     ],
+     "scores": {
+      "a003": 74.5,
+      "a005": 77.5
+     },
+     "source": "judge"
+    }
+   ],
+   "bye": null,
+   "closed": true
+  },
+  {
+   "n": 4,
+   "alive": [
+    "a005",
+    "a013"
+   ],
+   "matches": [
+    {
+     "id": "r4-m01",
+     "a": "a005",
+     "b": "a013",
+     "winner": "a013",
+     "loser": "a005",
+     "reason": "Both fixed their attacks well, but a005's main India pick never checks Tally's own built in tools (Docs by Ira, Excel voucher import) or Zenxos for its WhatsApp workflow, which is the exact 'already solved by a built in feature or cheap tool' check the task demands, while a013 does that check in both regions and also covers continental Europe.",
+     "survived": [
+      "connectors built before gates: fixed, each connector now starts only after its gate passes",
+      "freed time is not cash: fixed with a cash test in rule P and the small firm rows",
+      "Unleashed built in CSV import and B2B store skipped: fixed with sources and screening questions",
+      "Tally connector underspecified: fixed with an outbound polling agent, queue, retries, alerts and dedupe",
+      "only one India workflow: rebutted with the Zenxos, Zotok and Rupyz rejection, and a paid small firm price added"
+     ],
+     "scores": {
+      "a005": 77.5,
+      "a013": 80.5
+     },
+     "source": "judge"
+    }
+   ],
+   "bye": null,
+   "closed": true
+  }
+ ],
+ "champion": "a013",
+ "final": null
+}

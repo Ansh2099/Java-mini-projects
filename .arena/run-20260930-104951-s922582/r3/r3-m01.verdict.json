@@ -1,0 +1,22 @@
+{
+  "match": "r3-m01",
+  "scores": {
+    "a013": {"correctness": 8, "completeness": 8, "specificity": 9, "robustness": 9, "clarity": 7, "fatal": false},
+    "a002": {"correctness": 7, "completeness": 8, "specificity": 8, "robustness": 9, "clarity": 7, "fatal": false}
+  },
+  "winner": "a013",
+  "reason": "Both fixed every attack, but a013's plan is more internally consistent (its payback tables check out at worst case, its Indian case study uses the same PO file shape European buyers send, and its budget plan for Unleashed is concrete), while a002 rejects Unleashed over a paid service with no public price (Logistify) yet keeps Sage 200 despite Zestcode, leaves its Rackbeat test access unconfirmed, and still targets pharma stockists and auto parts firms in India without checking Marg or OEM portal ordering.",
+  "survived": [
+    "Unleashed not free to build on: fixed with docs plus fake server, one 14 day trial, recorded demo, then client sandbox",
+    "Job ad proof names Sage not Unleashed: admitted, Unleashed evidence added, 60 firm counting test with BC fallback",
+    "Workflow 2 lines vs confirmations threshold: redone in hours, worst case checked",
+    "Abakion app missed for workflow 2: added, plus Continia found, workflow 2 demoted to conditional",
+    "Unproven Ludhiana buyer shape: labelled a guess, 10 firm screening table, WhatsApp file intake, two fallbacks",
+    "Pharma stockists on Marg: moved to does not fit list",
+    "Time zone, India price row and Indeed NL link slips: all corrected"
+  ],
+  "standing": {
+    "a013": [],
+    "a002": []
+  }
+}

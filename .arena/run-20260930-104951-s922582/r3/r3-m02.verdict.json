@@ -1,0 +1,21 @@
+{
+  "match": "r3-m02",
+  "scores": {
+    "a003": {"correctness": 7, "completeness": 7, "specificity": 8, "robustness": 8, "clarity": 8, "fatal": false},
+    "a005": {"correctness": 7, "completeness": 8, "specificity": 9, "robustness": 8, "clarity": 7, "fatal": false}
+  },
+  "winner": "a005",
+  "reason": "Both fixed every attack with correct arithmetic, but a005 ends with an independent second European workflow (Sage 200 cash allocation), a concrete partner-led first sale path with a paid pilot, and a per-prospect Hyperfox fee formula, while a003 is left with one European workflow and 'No Pick 2'.",
+  "survived": [
+    "0.7 savings factor: cut to 0.5 with 0.3 and 0.74 stress columns, table math checks out",
+    "No path to first sale: Sage partner subcontract route, free Business Central demo, 25% paid pilot",
+    "Small buyer excluded and Xero tool count: one tool count rule, small tier named as Sage 200 Standard or BC",
+    "Single workflow family ladder: added cash allocation workflow with different owner and competitors",
+    "India floor on estimated salary: gates now at sourced 18,000 INR, table recomputed correctly",
+    "Fixed Hyperfox ratio: replaced by per-prospect lines x EUR 0.07 formula and table"
+  ],
+  "standing": {
+    "a003": [],
+    "a005": []
+  }
+}

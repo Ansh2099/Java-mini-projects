@@ -1,0 +1,22 @@
+{
+  "match": "r1-m04",
+  "scores": {
+    "a008": {"correctness": 7, "completeness": 9, "specificity": 9, "robustness": 9, "clarity": 7, "fatal": false},
+    "a010": {"correctness": 8, "completeness": 8, "specificity": 8, "robustness": 8, "clarity": 8, "fatal": false}
+  },
+  "winner": "a008",
+  "reason": "a008 fixed every attack and gives the user a deeper, verified competitor landscape (Hyperfox per line math, Microsoft agent limits, kill rule, GDPR and n8n licence traps) with one consistent price table, which outweighs its omission of the Sage 200 developer fee that a010 correctly caught.",
+  "survived": [
+    "non BC gap already filled by products: fixed with landscape table and narrowed segments A, B, C plus kill rule",
+    "India price above SalesOn and Zotok: repriced to Zotok level, SalesOn distinction correctly argued",
+    "no European spend evidence: Reed, Werkzoeken, Indeed salaries and job duties added",
+    "two workflows failing a to h: Europe workflow 2 rivals added, India workflow 2 demoted to do not build",
+    "contradictory pricing verdict: single price table with repeatable anchors",
+    "one twentieth ratio wrong: recomputed correctly at midpoints",
+    "small firm output system unnamed: Unleashed named, then rejected due to Logistify"
+  ],
+  "standing": {
+    "a008": [],
+    "a010": ["I2 Indian demand evidence still thin; no data that Ludhiana suppliers get emailed POs at qualifying volume (partial fix)"]
+  }
+}

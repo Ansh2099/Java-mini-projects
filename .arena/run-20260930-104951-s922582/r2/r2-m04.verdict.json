@@ -1,0 +1,23 @@
+{
+  "match": "r2-m04",
+  "scores": {
+    "a005": {"correctness": 7, "completeness": 8, "specificity": 8, "robustness": 9, "clarity": 8, "fatal": false},
+    "a015": {"correctness": 5, "completeness": 8, "specificity": 8, "robustness": 7, "clarity": 7, "fatal": false}
+  },
+  "winner": "a005",
+  "reason": "a005 fixed all six attacks with math that checks out and an honest competitor map; a015 fixed its pricing math but its lead pick (supplier confirmation check) and its best PO-entry target (Exact Online) both ignore Hyperfox, which sells an order confirmation agent and order entry with prebuilt BC and Exact connectors and public per-line pricing, so the gap it names does not hold.",
+  "survived": [
+    "upkeep range contradicted own math: now one formula (hours x cost x 0.7, third to half) and the table checks out at 4h and 16h",
+    "Hyperfox Sage absence from snippets: claim narrowed to no prebuilt connector, plus a sales-inquiry gate before any Sage spend",
+    "volumes were guesses: TradeCentric/IOFM benchmarks added, floors moved to measured hours of keying, stopwatch gate; HublerX turnover rebuttal is correct",
+    "Sage build over budget: no Sage fee until a client deposit, demo on free BC trial and Tally",
+    "only one European workflow: RFQ to quote added with salary and job ad evidence, plus a fallback ladder",
+    "Sage 200 Manufacturing retirement: manufacturers excluded unless already migrated, ERP change question added to discovery"
+  ],
+  "standing": {
+    "a005": [],
+    "a015": [
+      "Indian case study for the lead confirmation-check pick rests on an unchecked assumption that Ludhiana firms get 20+ emailed supplier confirmations a week (partial fix)"
+    ]
+  }
+}

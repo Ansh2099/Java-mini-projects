@@ -1,0 +1,21 @@
+{
+  "match": "r1-m03",
+  "scores": {
+    "a009": {"correctness": 6, "completeness": 7, "specificity": 8, "robustness": 7, "clarity": 8, "fatal": false},
+    "a003": {"correctness": 6, "completeness": 8, "specificity": 8, "robustness": 9, "clarity": 8, "fatal": false}
+  },
+  "winner": "a003",
+  "reason": "Both fixed every attack and each carries one unraised competitor miss (a003 calls Xero plus Cin7 a best target despite Cin7's own 79 USD IDR add on; a009 claims an open India gap while Karvan and Zotok already turn WhatsApp voice and text orders into orders for Indian wholesalers), but a003 delivers more fully evidenced workflows per region with salary sources and one consistent price ladder, while a009's India still has only one sellable workflow plus a thin add on.",
+  "survived": [
+    "Continia already covers BC order confirmations: BC and Odoo removed from workflow 2 targets",
+    "Sage 200 and Odoo gap unchecked: replaced with a per ERP competitor map",
+    "LLM cost breaks 50 USD budget: priced Flash-Lite, math checks out, pilot cap and pass through rules added",
+    "Price confirmation contradicted own prices: one consistent ladder anchored on Werkritme",
+    "Missing evidence fields: India workflow 3 demoted, UK and India salary sources added",
+    "WhatsApp and Tally build gaps: Coexistence and a retrying company aware Tally agent specified"
+  ],
+  "standing": {
+    "a009": ["Too few workflows: India still has one sellable workflow, I2 is an add on the answer itself calls too thin to sell alone"],
+    "a003": []
+  }
+}

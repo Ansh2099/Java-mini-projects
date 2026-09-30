@@ -1,0 +1,19 @@
+{
+  "match": "r1-m05",
+  "scores": {
+    "a016": {"correctness": 7, "completeness": 6, "specificity": 9, "robustness": 9, "clarity": 7, "fatal": false},
+    "a014": {"correctness": 5, "completeness": 8, "specificity": 8, "robustness": 9, "clarity": 7, "fatal": false}
+  },
+  "winner": "a016",
+  "reason": "Both fixed every attack, but a014's revised top pick tells the user to lead with Cin7 Core and Unleashed as ERPs with 'no built in agent' while Cin7 sells its own IDR PDF-to-draft-sales-order add-on and Logistify covers Unleashed (tools a014's own attack cited), so its lead segment fails the task's rejection test, whereas a016 narrowed its pick to a ledger it actually checked and ran the competitor test honestly.",
+  "survived": [
+    "Dext and Lightyear already cover statement reconciliation: narrowed to uncovered ledgers (Exact Online) with a 4 step competitor check",
+    "E2 surviving-ERP list unsourced and wrong: removed, E2 made conditional only",
+    "open item vs balance forward false exceptions: matching rebuilt as-of statement date with type-aware balance check",
+    "CA firm pilot timed into the extended audit deadline: re-sequenced to trader first, CA back test after 21 November",
+    "three conflicting qualifiers: one 100 statement qualifier with math",
+    "I2 and E3 missing required fields: moved to unproven and rejected",
+    "tenant-wide Mail.ReadWrite: forwarding rule default plus scoped RBAC for Applications"
+  ],
+  "standing": {"a016": [], "a014": []}
+}

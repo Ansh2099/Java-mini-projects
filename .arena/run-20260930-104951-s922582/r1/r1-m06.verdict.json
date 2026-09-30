@@ -1,0 +1,22 @@
+{
+  "match": "r1-m06",
+  "scores": {
+    "a004": {"correctness": 6, "completeness": 9, "specificity": 8, "robustness": 9, "clarity": 8, "fatal": false},
+    "a002": {"correctness": 8, "completeness": 8, "specificity": 9, "robustness": 9, "clarity": 9, "fatal": false}
+  },
+  "winner": "a002",
+  "reason": "Both fixed every attack, but a004 still claims an open India gap for WhatsApp orders to Tally while missing Zotok and Karvan (cheap tools that do exactly this for distributors) and still calls Exact Online a good target despite admitting third parties already sell email to order there, whereas a002 gets the competitor landscape right, flags Exact as crowded, and backs its pick with a worked example whose arithmetic checks out.",
+  "survived": [
+    "Missed Indian WhatsApp to Tally competitors: reframed I1 as a case study build, with Zotok, Karvan and HublerX named and priced",
+    "No Indian evidence of spend: added Ludhiana billing pay and Naukri listing counts",
+    "Unsourced and inconsistent EU price verdict: now 'corrected', cites UK agency pricing, worked example repriced inside the band",
+    "No continental EU software: added Exact, Odoo, Lexware, Fortnox, Netvisor, Procountor, DATEV with sources",
+    "E2 broke the 2 to 3 tool rule: portal input dropped, BC cash application tools cited, demoted to validate first",
+    "Customs keying time used for order entry: replaced with order entry benchmarks and a low and base case",
+    "Overloaded 8 week plan: replaced with a sequential 16 week plan that fits 20 hours a week"
+  ],
+  "standing": {
+    "a004": [],
+    "a002": []
+  }
+}

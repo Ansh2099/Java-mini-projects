@@ -1,0 +1,23 @@
+{
+  "match": "r1-m07",
+  "scores": {
+    "a015": {"correctness": 8, "completeness": 9, "specificity": 9, "robustness": 9, "clarity": 7, "fatal": false},
+    "a007": {"correctness": 7, "completeness": 8, "specificity": 8, "robustness": 8, "clarity": 8, "fatal": false}
+  },
+  "winner": "a015",
+  "reason": "Both fixed the fatal Business Central Sales Order Agent miss. a015 fixed all six attacks with price tables I checked line by line, and it gives more qualifying workflows (2 India, 2 Europe) plus a concrete Tally bridge design. a007 kept one real error: its Exact Online row claims a full sales order API without the Wholesale/Manufacturing edition condition, which it had itself used against a015. It also offers only one India workflow and has small pricing inconsistencies in India.",
+  "survived": [
+    "BC Sales Order Agent makes lead product built in (fixed: lead moved to supplier confirmation check, PO entry only on uncovered ERPs)",
+    "prices failed own one third of saving rule (fixed: one formula plus per volume tables, arithmetic verified)",
+    "Exact Online sales order API is edition limited (fixed: edition split in table and qualification check)",
+    "Europe pick 2 had no cost or price basis (fixed: Indeed buyer and assistant salaries, loaded cost, worked example)",
+    "VPS cannot reach Tally localhost:9000 (fixed: outbound only Windows agent, Tally settings, heartbeat, Zoho or Marg first)",
+    "time zone offsets go stale after 25 Oct 2026 (fixed: summer and winter offsets with correct dates and IST support window)"
+  ],
+  "standing": {
+    "a015": [],
+    "a007": [
+      "tool count rebuttal for India workflow is arguable (provider and desktop connector counted as pipes, not tools)"
+    ]
+  }
+}

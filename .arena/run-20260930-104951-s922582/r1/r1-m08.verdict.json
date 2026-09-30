@@ -1,0 +1,22 @@
+{
+  "match": "r1-m08",
+  "scores": {
+    "a001": {"correctness": 6, "completeness": 8, "specificity": 8, "robustness": 8, "clarity": 8, "fatal": false},
+    "a013": {"correctness": 8, "completeness": 9, "specificity": 8, "robustness": 9, "clarity": 7, "fatal": false}
+  },
+  "winner": "a013",
+  "reason": "a013 checks the built in competition on every target stack (BC Sales Order Agent, Cin7 Core IDR, TallyPrime Docs by Ira, Odoo modules) and aims where they stop working, while a001 names Cin7 Core as a first UK target and Tally as its India target without noticing that both ship a built in PDF to sales order feature (verified: Cin7 IDR add on from 79 USD a month, Docs by Ira creates Sales Order vouchers), which breaks the task's reject rule for part of its lead pick.",
+  "survived": [
+    "Business Central Sales Order Agent (fatal claim): BC dropped as a target, Sage 200 and Unleashed made the lead, BC agent limits documented",
+    "Unsourced price cut: user's guess now confirmed and tied to aiworkforce and Axivon ranges",
+    "India workflow 2 unchecked reject test: moved to rejected list with AI Accountant, TransactIG and Docs by Ira sources",
+    "Unchecked small firm ERPs: full API and built in feature table for Sage 200, Unleashed, Exact, Cin7, Odoo, Xero, QBO, Sage 50",
+    "India buyer contradiction and unsourced pay: small firms now case study only, pay sourced from Indeed India and Glassdoor Ludhiana",
+    "WhatsApp forwarding habit change: version 1 is email only, version 2 via Meta coexistence with costs stated",
+    "Europe workflow 2 no cost proof: Glassdoor salary and a UK job ad naming order acknowledgement follow up added"
+  ],
+  "standing": {
+    "a001": ["price consistency only partly fixed: workflow 2 quote (3,000 to 5,000 GBP build, 350 to 600 GBP a month) sits below the medium row of the table it says nothing overrides"],
+    "a013": []
+  }
+}

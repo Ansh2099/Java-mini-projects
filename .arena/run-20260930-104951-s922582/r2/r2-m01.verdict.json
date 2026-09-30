@@ -1,0 +1,23 @@
+{
+  "match": "r2-m01",
+  "scores": {
+    "a003": {"correctness": 8, "completeness": 8, "specificity": 9, "robustness": 9, "clarity": 8, "fatal": false},
+    "a016": {"correctness": 7, "completeness": 6, "specificity": 9, "robustness": 7, "clarity": 7, "fatal": false}
+  },
+  "winner": "a003",
+  "reason": "a003's revised top pick (emailed PO to ERP, narrowed to Sage 200 and messy mixed format orders) rests on sourced proof of paid pain in both regions with a real India to Europe bridge, while a016's revised top pick is an openly unproven bet with no evidence of spend in its Dutch target market, an India income pick that fails its own labour math, and a bridge built on a workflow it admits is not a product.",
+  "survived": [
+    "Katana and Cin7 target already covered (fixed: moved to skip list, Pick 1 retargeted to Sage 200 and messy mixed format orders)",
+    "Unsourced and wrong ERP API claims (fixed: sourced per ERP, QuickBooks Online no SalesOrder API, Xero paid tiers, Sage 50 developer fee)",
+    "India plan targets the segment it rejected (fixed: target is now manufacturers with emailed OEM POs, with the FMCG rejection reason corrected)",
+    "No India evidence or hire vs automate math (fixed: cases, job listings and a checked volume break even table added)",
+    "Freight workflow lacked software, API and price detail (fixed: moved to the rejected list with sources)",
+    "GDPR endpoint vs cost model mismatch (fixed: EU model options priced, Gemini 2.5 Flash-Lite retirement handled, cost figures check out)"
+  ],
+  "standing": {
+    "a003": [],
+    "a016": [
+      "No evidence of spend in the Dutch target market for E1 (salary now sourced, but no Dutch job ad, outsourcer or volume proof for statement reconciliation; only admitted and gated)"
+    ]
+  }
+}

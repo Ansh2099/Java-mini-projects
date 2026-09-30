@@ -1,0 +1,21 @@
+{
+  "match": "r2-m03",
+  "scores": {
+    "a002": {"correctness": 7, "completeness": 9, "specificity": 8, "robustness": 9, "clarity": 8, "fatal": false},
+    "a008": {"correctness": 8, "completeness": 8, "specificity": 8, "robustness": 9, "clarity": 6, "fatal": false}
+  },
+  "winner": "a002",
+  "reason": "Both fixed every attack, but a002 gives a lead European market (Procountor and Netvisor in Finland) that is buildable inside the $50 budget with free developer access and no tool found, plus a small-firm path and inline sources, while a008's lead is a narrow price war against Hyperfox and its small-firm Europe workflow is thin and priced under the user's floor; a002's false claim that Microsoft's Sales Order Agent does not support Finnish, Swedish or Dutch (Microsoft Learn now lists all three) costs it correctness but is peripheral because its targets are not Business Central.",
+  "survived": [
+    "Fortnox named as open market: now rejected with Qrisp and Gung, and Cin7 and Unleashed also dropped",
+    "Sage 200 developer fee ignored: now sourced at about 4,995 GBP a year and Sage 200 moved to after revenue",
+    "Contradictory 250 USD small-firm fee: replaced by a confirmed 400 to 600 USD band matching its own example",
+    "US Sage 100 thread misused and no Finnish evidence: relabelled, Duunitori salary added, volume shown at 20, 40 and 80 orders a day",
+    "INR fees exceed savings: volume table added and a 100 orders a day minimum set, math checks out",
+    "I1 over the 2 to 3 tool limit: correctly rebutted (own connector and route are not client tools) and provider dropped"
+  ],
+  "standing": {
+    "a002": [],
+    "a008": []
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "match": "r4-m01",
+  "scores": {
+    "a005": {"correctness": 7, "completeness": 8, "specificity": 9, "robustness": 8, "clarity": 7, "fatal": false},
+    "a013": {"correctness": 8, "completeness": 8, "specificity": 9, "robustness": 8, "clarity": 7, "fatal": false}
+  },
+  "winner": "a013",
+  "reason": "Both fixed their attacks well, but a005's main India pick never checks Tally's own built in tools (Docs by Ira, Excel voucher import) or Zenxos for its WhatsApp workflow, which is the exact 'already solved by a built in feature or cheap tool' check the task demands, while a013 does that check in both regions and also covers continental Europe.",
+  "survived": [
+    "connectors built before gates: fixed, each connector now starts only after its gate passes",
+    "freed time is not cash: fixed with a cash test in rule P and the small firm rows",
+    "Unleashed built in CSV import and B2B store skipped: fixed with sources and screening questions",
+    "Tally connector underspecified: fixed with an outbound polling agent, queue, retries, alerts and dedupe",
+    "only one India workflow: rebutted with the Zenxos, Zotok and Rupyz rejection, and a paid small firm price added"
+  ],
+  "standing": {
+    "a005": ["hedge and upsell workflows still rest on unsourced volume (RFQ volume and time, remittance volume)"],
+    "a013": ["small India paid price of 20,000 rupees sits slightly above the one third limit at the true worst case (19,600 rupees); India still has one workflow"]
+  }
+}
